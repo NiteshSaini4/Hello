@@ -1,0 +1,30 @@
+public interface SearchContext
+{
+
+
+}
+public interface WebDriver
+{
+
+
+}
+public class ChromeDriver implements WebDriver
+{
+
+}
+//WebElement interface
+
+
+public interface SearchContext//javaScriptEx   ,WebDriver  ,TakesScreenshot
+{
+
+
+}
+public interface TakesScreenShot
+{
+
+}
+public interface WebElement extends  SearchContext,TakesScreenShot
+{
+//input,find,click,disp;ay,  selected,  tag,,,,Attr
+}
